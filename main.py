@@ -23,22 +23,3 @@ def retruRecommendedBooks(bookName):
         print("The book is not in df\nyou can use Harry Potter and the Sorcerer's Stone or The Alchemist,for example")
 book = input("Enter a favorite book you've read before:\n")
 retruRecommendedBooks(book)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
