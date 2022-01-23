@@ -5,3 +5,4 @@
 examples of books thet found in the dataset:<br>
 The Catcher in the Rye,One Hundred Years of Solitude,The Da Vinci Code,and many more...
 
+data_collected.zip contains the raw dataset before any change.
