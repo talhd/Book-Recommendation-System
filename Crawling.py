@@ -28,7 +28,7 @@ def loadSoupObject(htmlFile):
 def scrapeBookNameAndUrl(url):
     bookUriDictionary = {}#The dictionary contains the title of the book and the corresponding link on the site
     numOfPage=0
-    while numOfPage < 1:#4500=the number of pages we want to process
+    while numOfPage < 4500:#4500=the number of pages we want to process
         file=returnTheHtmlFile(url+str(numOfPage+1))
         soupObject = loadSoupObject(file)
         booksInPage = soupObject.findAll(class_="bookTitle")
